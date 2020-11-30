@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
 <head>
 <title>FOC</title>
@@ -26,21 +26,39 @@
   </div>
   
   <article>
-
-
 <center><h2>Java Script</h2></center>
-<center><p>XOR GATE </p></center>
+<center><p>BMI Calculator </p></center>
  
-         <center><img id="myImage" src="./img/XORgate0.png" style="width:300px" /> </center>
+	<center>
+        <form>
 		    <br />
+            <br />
+            <h2>Please insert your weight in pounds</h2>
+            <input id="weight" type="text" placeholder="Your weight in kilograms" />
+            <br />
+            <br />
+            <h2> Please insert your height in inches</h2>
+            <input id="height" type="text" placeholder="Your height in meters" />
+            <br />
+            <br />
+
+            <input class="submit" type="button" value="Submit" onclick="bmi()" />
+            <p id="result">your results are:</p>
 			<br />
+            <br />
 			<br />
-        <ul>
- <center><button class="button button1" onclick="document.getElementById('myImage').src='./img/XORgate0.png'" alt="FoC"   width="400" height="400">0 AND 0</button>
-         <button class="button button1" onclick="document.getElementById('myImage').src='./img/XORgate01.png'" alt="FoC"   width="400" height="400">0 AND 1</button>
-         <button class="button button1" onclick="document.getElementById('myImage').src='./img/XORgate10.png'" alt="FoC"   width="400" height="400">1 AND 0</button>
-         <button class="button button1" onclick="document.getElementById('myImage').src='./img/XORgate11.png '" alt="FoC"   width="400" height="400">1 AND 1</button> </center>
-       </ul>
+            <br />
+        </form>
+    </center>
+    <script type="text/javascript">
+        function bmi() {
+            var height = Number(document.getElementById("height").value);
+            var weight = Number(document.getElementById("weight").value);
+            var result = weight / (height * height) * 730;
+            document.getElementById("result").innerHTML = "Your bmi score is : " + result;
+        }
+    </script>
+	
 	      <p></p>
 		  <p></p>
 
@@ -54,6 +72,4 @@
 
 </body>
 </html>
-
-
-
+	
