@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('img/abstrakciya.jpg');
+  background-image: url('img/Red.jpg');
   height: 1000px;
   background-position: center;
   background-size: cover;
@@ -16,7 +16,7 @@ h1 {
 
 .button {
   border: none;
-  color:  #A833FF;
+  color:  #ff0000;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
@@ -28,19 +28,19 @@ h1 {
 }
 
 .button1 {
-  background-color: #33C7FF; 
+  background-color: #000000; 
   color: #FFFFFF; 
-  border: 2px solid A833FF;
+  border: 2px solid ff0000;
 }
 
 .button1:hover {
-  background-color: #A833FF;
-  color: #33C7FF;
+  background-color: #ff0000;
+  color: #000000;
 }
 
 
 .bgimg {
-  background-image: url('img/abstrakciya.jpg');
+  background-image: url('img/Red.jpg');
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -72,15 +72,14 @@ header {
 }
 
 .topnav a:hover {
-  background-color: #0000ff;
+  background-color: #ff0000;
   color: white;
 }
 
 .topnav a.active {
-  background-color: #0000ff;
+  background-color: #ff0000;
   color: white;
 }
-
 
 
 .circular--square {
