@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FOC</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<header>
+  <h2><b>Fundamentals of Computing</b></h2>
+</header>
+
+
+<section>
+ <div class="topnav">
+      <a href="course.html">Course</a>
+      <a href="project.html">Project</a>
+	  <a href="concepts.html">Concepts</a>
+	  <a href="database.html">Databases</a>
+	  <a href="documentation.html">Documentation</a>
+      <a href="aboutme.html">About Me</a>
+	  <a href="Index.html">Welcome</a>
+  </div>
+  
+  <article>
+  <h3 style="font-family:jokerman; text-align:center;">CPU BASICS</h3>
+<p style="font-family:courier; text-align:center;">A CPU contains three parts: </p> 
+  
+  <center><li style="font-family:courier;"> The arithmetic/logic unit    <br /> The control unit      <br /> The register unit</li> </center>
+  <br />
+  <br />
+  
+  <small>
+<li style="font-family:courier;"> The arithmetic/logic unit,contains the circuitry that performs operations on data.</li> 
+	<li style="font-family:courier;">The control unit, which contains the circuitry for coordinating the
+machine’s activities; and</li> 
+<li style="font-family:courier;">The register unit contains data storage called registers, that are used for temporary
+storage of information within the CPU. Some of the registers in the register unit are general-purpose registers, while others are dedicated to a specific task. <br></br> </li>
+
+<p style="font-family:courier; text-align:center;">
+
+<b> General-purpose registers <br />are used to temporarily store data that the CPU is manipulating. The inputs to the arithmetic/logic unit's circuits are held in these registers,
+which also serve as storage for the unit's results. The control unit transfers data from main memory into general-purpose registers, informs the arithmetic/logic unit which registers hold the data, 
+activates the appropriate circuitry within the arithmetic/logic unit, and tells the arithmetic/logic unit which register should receive the result to perform an operation on data stored in main memory.
+
+</p></small>
+
+
+
+  <small>
+<p style="font-family:courier; text-align:center;"><b>A group of cables called a bus connects a machine's CPU and main memory for the purpose of exchanging bit patterns. 
+The CPU extracts data from main memory through this bus by sending the address of the relevant memory cell together with an electrical signal instructing the memory circuitry to retrieve the data in that cell. 
+The CPU stores (writes) data in memory in a similar way by supplying the address of the target cell and the data to be stored, 
+as well as the proper electrical signal instructing main memory to store the data being transferred to it. </p>
+
+<br/>
+
+<p style="font-family:courier; text-align:center;">If the control unit is programmed to extract the program from memory, decode the instructions,
+ and execute them, the machine's program may be updated by simply 
+altering the contents of the computer's memory rather than rewiring the CPU. The concept of keeping a computer's software in its main memory is
+ known as the stored-program concept, and it is now the industry standard..</p>
+
+
+<br />
+<p style="font-family:courier; text-align:center;">CPUs are intended to identify instructions encoded as bit patterns in order to apply the stored-program notion. 
+The machine language refers to the set of instructions as well as the encoding mechanism. A machine-level instruction (or, more generally, a machine instruction) 
+is an instruction written in this language..</p>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div class="row">
+  <div class="column">
+    <h2>Input</h2>
+    <p><button style="width: 150px; height: 40px;" onclick="document.getElementById('cpu').src='cpu1.png'">Input</button></p>
+    <p><button style="width: 150px; height: 40px;" onclick="document.getElementById('cpu').src='cpu2.png'">LOAD R0 0</button></p>
+    <p><button style="width: 150px; height: 40px;" onclick="document.getElementById('cpu').src='cpu3.png'">LOAD R1 1</button></p>
+    <p><button style="width: 150px; height: 45px;" onclick="document.getElementById('cpu').src='cpu4.png'">ADD R2 R0 R1</button></p>
+    <p><button style="width: 150px; height: 40px;" onclick="document.getElementById('cpu').src='cpu5.png'">SUB R3 R2 R1</button></p>
+    <p><button style="width: 150px; height: 40px;" onclick="document.getElementById('cpu').src='cpu6.png'">STORE 8 R3</button></p>
+    <p><button style="width: 150px; height: 40px;" onclick="document.getElementById('cpu').src='cpu7 .png'">Halt</button></p>
+	
+	
+  </div>
+  <div class="column">
+    <h2>Output</h2>
+	<hr>
+	<center><img id="cpu" src="cpu0.png" alt="cpu" width="800" height="550" align="center"></center>
+  </div>
+  </div>
+  <div class="column">
+	<div class="myDIV">
+  
+		<center><img src="./img/assemblyandmachinelanguageinstructionset.png" alt="assemblyandmachinelanguageinstructionset"  width="550" height="550" align="center">
+		
+		
+	</div>
+</div>
+
+			<br />
+			<br />
+			<br />
+            <br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+            <br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			
+			
+			
+			
+			
+			
+    </article>
+</section>
+
+<footer>
+  <p>@ Powered by UB</p>
+</footer>
+
+</body>
+</html>
